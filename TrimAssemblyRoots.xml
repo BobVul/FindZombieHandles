@@ -1,0 +1,7 @@
+﻿<!-- https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-8-0#root-descriptors -->
+<!-- https://github.com/dotnet/runtime/blob/main/docs/tools/illink/data-formats.md#descriptor-format -->
+<linker>
+	<assembly fullname="NtApiDotNet" >
+		<type fullname="NtApiDotNet.*/NtTypeFactoryImpl" preserve="all" />
+	</assembly>
+</linker>
